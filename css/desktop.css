@@ -1,0 +1,134 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 100%;
+        max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .contacts {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .adr-block {
+        flex-direction: row;
+    }
+
+    /* MAIN */
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: url(../images/background@2x.jpg);
+        }
+    }
+
+    .background-img {
+        max-width: 1440px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .title {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+
+        
+        letter-spacing: 0.02em;
+
+        max-width: 496px;
+
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 188px;
+    }
+
+    .icon-div {
+        display: flex;
+    }
+
+    .photos {
+        display: block;
+    }
+
+    .title-section {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .section-text {
+        font-weight: 400;
+    }
+
+    .list-sec {
+        max-width: 264px;
+    }
+
+    .list-items {
+        gap: 72px 24px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        text-align: start;
+
+        
+    }
+
+    .list-sec:not(:last-child) {
+        padding: 0;
+    }
+
+    .list-sec {
+        max-width: auto;
+    }
+
+    .team-block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+
+    .company-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+        margin-bottom: 96px;
+    }
+
+    .company-link {
+        width: 168px;
+        max-height: 88px;
+    }
+
+    .foot-block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .foot-social-block {
+        margin-left: 120px;
+    }
+
+    .foot-input {
+        margin-left: 79px;
+    }
+
+    .foot-input input {
+        width: 264px;
+    }
+
+}
