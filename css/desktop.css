@@ -12,8 +12,12 @@
     }
 
     .sec-ul {
-        gap: 40px;
+        gap: 25px;
     }  
+
+        .sec-img:not(:last-child) {
+            margin-right: 0;
+        }
 
     .adr-block {
         flex-direction: row;
@@ -131,6 +135,7 @@
 
     .foot-social-block {
         margin-left: 120px;
+        margin-bottom: 0;
     }
 
     .foot-input {

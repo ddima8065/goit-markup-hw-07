@@ -63,6 +63,7 @@ html {
 }
 
 .head-btn {
+    font-family: "Raleway", sans-serif;
     color: var(--primary-text-color);
     font-weight: 800;
     font-size: 18px;
@@ -90,6 +91,7 @@ html {
     padding-top: 24px;
     padding-bottom: 40px;
     padding-left: 40px;
+    padding-right: 24px;
     z-index: 1;
 }
 
@@ -543,11 +545,21 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 24px;
-    width: 408px;
-    max-height: 584px;
+    width: 392px;
+    max-height: 586px;
     /* height: auto; */
     background-color: #fcfcfc;
     border-radius: 4px;
+   
+        max-width: 408px;
+        max-height: 584px;
+        padding: 72px 24px 24px;
+        
+       
+        
+        width: 100%;
+        height: 90%;
+        overflow-y: auto;
 }
 
 .modal-but {
@@ -587,7 +599,7 @@ html {
 }
 
 .modal-title {
-    padding-top: 48px;
+    
     margin-bottom: 16px;
     /* margin-right: 24px;
  margin-left: 24px; */

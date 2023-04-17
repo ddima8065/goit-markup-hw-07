@@ -12,7 +12,9 @@
         display: none;
     }
 
-    
+    .adr-block {
+        gap: 12px;
+    }
 
     .nav-block,
     .adr-block {
@@ -199,7 +201,7 @@
     }
 
     .foot-container {
-        width: 700px;
+        width: 582px;
     }
 
     .foot-media {
@@ -209,7 +211,7 @@
 
     .foot-block {
         margin-right: 24px;
-        margin-left: 108px;
+        margin-left: 0;
         text-align: left;
     }
 
@@ -220,7 +222,7 @@
     .foot-input {
         display: flex;
         justify-content: center;
-        margin-left: 108px;
+       
     }
 
     .foot-title-media {
