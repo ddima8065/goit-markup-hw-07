@@ -1,0 +1,124 @@
+:root {
+    --title-text-color: #434455;
+    --primary-text-color: #2e2f42;
+    --button-color: #4d5ae5;
+    --white-back: #ffffff;
+    --background-buttton: #404bbf;
+    --back-team: #f4f4fd;
+    --footer-text: #E7E9FC;
+    --icon-color: #afb1b8;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.adress {
+    font-style: normal;
+}
+
+
+.head {
+    border-bottom: 1px solid var(--footer-text);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.head-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.web-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-color);
+    margin-right: 76px;
+}
+
+
+.studio-logo {
+    color: var(--primary-text-color);
+}
+
+.head-menu,
+.head-adress {
+    display: flex;
+}
+
+.head-nav-item {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    position: relative;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.active-page {
+    color: var(--background-buttton);
+}
+
+.current-line::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: var(--background-buttton);
+    border-radius: 2px;
+    left: 0;
+    bottom: 0;
+}
+
+
+.li-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.head-nav-item:hover,
+.head-nav-item:focus {
+    color: var(--background-buttton);
+}
+
+.adress {
+    margin-left: auto;
+}
+
+
+.head-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--title-text-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.head-contacts:hover,
+.head-contacts:focus {
+    color: var(--background-buttton);
+    ;
+}

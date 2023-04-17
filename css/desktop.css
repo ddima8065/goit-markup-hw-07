@@ -11,6 +11,10 @@
         line-height: 1.5;
     }
 
+    .sec-ul {
+        gap: 40px;
+    }  
+
     .adr-block {
         flex-direction: row;
     }
@@ -37,6 +41,11 @@
         background-position: center;
     }
 
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
     .title {
         color: #ffffff;
         font-family: "Roboto";
@@ -52,7 +61,7 @@
 
         margin-right: auto;
         margin-left: auto;
-        padding-top: 188px;
+        
     }
 
     .icon-div {
@@ -106,7 +115,7 @@
     .company-list {
         flex-wrap: nowrap;
         gap: 24px;
-        margin-bottom: 96px;
+       
     }
 
     .company-link {
@@ -117,6 +126,7 @@
     .foot-block {
         margin-left: 0;
         margin-right: 0;
+        
     }
 
     .foot-social-block {

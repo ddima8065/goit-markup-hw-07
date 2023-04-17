@@ -2,10 +2,9 @@
 
     .container {
        
-        overflow-x: hidden;
+       
         max-width: 480px;
-        padding-left: 16px;
-        padding-right: 16px;
+        
         margin-left: auto;
         margin-right: auto;
     }
@@ -13,7 +12,7 @@
     .mob-menu-open {
         padding-top: 24px;
         padding-bottom: 24px;
-        padding-right: 16px;
+       
         margin-left: auto;
         stroke: #2E2F42;
         border: none;
@@ -26,7 +25,7 @@
         font-size: 36px;
         line-height: 1.11;
         
-        padding-top: 112px;
+       
         width: auto;
     }
 
@@ -53,6 +52,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+
+
+    .hero {
+        padding-bottom:  188px;
+        padding-top: 112px;
     }
 
     .hero-but {
@@ -91,8 +96,10 @@
     }
 
     .section {
-        margin-top: 96px;
-        margin-bottom: 96px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .photos {
@@ -113,7 +120,7 @@
         
         align-items: center;
 
-        padding-bottom: 128px;
+       
     }
 
     .team-img:not(:last-child) {
@@ -121,18 +128,27 @@
         margin-bottom: 72px;
     }
 
-    .team-title {
+    .team {
         padding-top: 96px;
+        padding-bottom: 128px;
     }
 
+
+
+    .customers{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+
     .comp-title {
-        margin-top: 96px;
+       
     }
 
     .company-list {
         flex-wrap: wrap;
         gap: 72px 16px;
-        margin-bottom: 96px;
+        
     }
 
     .company-link {
@@ -152,9 +168,11 @@
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 72px;
+        text-align: center;
     }
 
     .std-foot {
+       
         margin-right: auto;
         margin-left: auto;
     }
@@ -178,4 +196,8 @@
         width: 100%;
         margin-bottom: 16px;
     }
+
+        .mob-menu-contacts-tel {
+            font-size: 25px;
+        }
 }
